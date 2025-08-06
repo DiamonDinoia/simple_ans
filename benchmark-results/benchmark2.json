@@ -1,0 +1,424 @@
+{
+  "results": [
+    {
+      "name": "bernoulli_p0.1",
+      "distribution": "bernoulli",
+      "params": {
+        "p": 0.1
+      },
+      "ratios": {
+        "ideal": 16.834683106332793,
+        "simple_ans": {
+          "ratio": 16.65001665001665,
+          "encode_MBps": 126.67033068424482,
+          "decode_MBps": 193.14118851043594
+        },
+        "zstd-22": {
+          "ratio": 13.113034356150013,
+          "encode_MBps": 1.302508093504235,
+          "decode_MBps": 2569.8962476020033
+        },
+        "zlib-9": {
+          "ratio": 12.022120702091849,
+          "encode_MBps": 1.3921706862100784,
+          "decode_MBps": 865.7063609164245
+        },
+        "blosc": {
+          "ratio": 15.160703456640388,
+          "encode_MBps": 1284.3382053101311,
+          "decode_MBps": 2562.4308472537105
+        }
+      }
+    },
+    {
+      "name": "bernoulli_p0.2",
+      "distribution": "bernoulli",
+      "params": {
+        "p": 0.2
+      },
+      "ratios": {
+        "ideal": 11.135324017000496,
+        "simple_ans": {
+          "ratio": 10.948105977665865,
+          "encode_MBps": 134.09612976262915,
+          "decode_MBps": 191.88276206058487
+        },
+        "zstd-22": {
+          "ratio": 9.22424130615257,
+          "encode_MBps": 1.218478334285957,
+          "decode_MBps": 1960.0112057389044
+        },
+        "zlib-9": {
+          "ratio": 8.329168748958853,
+          "encode_MBps": 0.5745413351433133,
+          "decode_MBps": 625.4714136351936
+        },
+        "blosc": {
+          "ratio": 10.766580534022394,
+          "encode_MBps": 1639.6004723676076,
+          "decode_MBps": 2554.4782718152806
+        }
+      }
+    },
+    {
+      "name": "bernoulli_p0.3",
+      "distribution": "bernoulli",
+      "params": {
+        "p": 0.3
+      },
+      "ratios": {
+        "ideal": 9.073945924337801,
+        "simple_ans": {
+          "ratio": 8.87941751021133,
+          "encode_MBps": 157.4489668904971,
+          "decode_MBps": 190.48896856998803
+        },
+        "zstd-22": {
+          "ratio": 7.757350089209526,
+          "encode_MBps": 1.2484933364191169,
+          "decode_MBps": 1447.632382516067
+        },
+        "zlib-9": {
+          "ratio": 7.006726457399103,
+          "encode_MBps": 0.47243128475888774,
+          "decode_MBps": 553.8403125878916
+        },
+        "blosc": {
+          "ratio": 8.86053517632465,
+          "encode_MBps": 1636.1424508795824,
+          "decode_MBps": 2503.855136351644
+        }
+      }
+    },
+    {
+      "name": "bernoulli_p0.4",
+      "distribution": "bernoulli",
+      "params": {
+        "p": 0.4
+      },
+      "ratios": {
+        "ideal": 8.228226470655239,
+        "simple_ans": {
+          "ratio": 8.195377806916898,
+          "encode_MBps": 161.02826945882165,
+          "decode_MBps": 189.34197067870258
+        },
+        "zstd-22": {
+          "ratio": 7.055669230226487,
+          "encode_MBps": 1.3041006702697324,
+          "decode_MBps": 1535.63518000631
+        },
+        "zlib-9": {
+          "ratio": 6.523582751647204,
+          "encode_MBps": 0.4482288815234403,
+          "decode_MBps": 551.0518276573672
+        },
+        "blosc": {
+          "ratio": 8.065817067268915,
+          "encode_MBps": 1645.519153467408,
+          "decode_MBps": 2526.92408932799
+        }
+      }
+    },
+    {
+      "name": "bernoulli_p0.5",
+      "distribution": "bernoulli",
+      "params": {
+        "p": 0.5
+      },
+      "ratios": {
+        "ideal": 8.000002827683511,
+        "simple_ans": {
+          "ratio": 7.985944737262418,
+          "encode_MBps": 226.11108415215858,
+          "decode_MBps": 196.94290290595683
+        },
+        "zstd-22": {
+          "ratio": 7.875255945818239,
+          "encode_MBps": 1.3251621973855694,
+          "decode_MBps": 1647.9256116749898
+        },
+        "zlib-9": {
+          "ratio": 6.450780544445878,
+          "encode_MBps": 0.4290288478996346,
+          "decode_MBps": 550.5088148272914
+        },
+        "blosc": {
+          "ratio": 7.8982702788089405,
+          "encode_MBps": 1636.644815100913,
+          "decode_MBps": 3757.7855750685612
+        }
+      }
+    },
+    {
+      "name": "gaussian_step0.5",
+      "distribution": "gaussian",
+      "params": {
+        "step": 0.5
+      },
+      "ratios": {
+        "ideal": 10.435904414049896,
+        "simple_ans": {
+          "ratio": 10.26588645929576,
+          "encode_MBps": 318.32140076338305,
+          "decode_MBps": 701.6641548335077
+        },
+        "zstd-22": {
+          "ratio": 7.720368261566077,
+          "encode_MBps": 2.124764644533617,
+          "decode_MBps": 1612.1407789889313
+        },
+        "zlib-9": {
+          "ratio": 6.7786269891033575,
+          "encode_MBps": 0.9793191610079905,
+          "decode_MBps": 607.8175037281445
+        },
+        "blosc": {
+          "ratio": 6.206843044456513,
+          "encode_MBps": 1910.3769881492146,
+          "decode_MBps": 4742.422439436852
+        }
+      }
+    },
+    {
+      "name": "gaussian_step0.3",
+      "distribution": "gaussian",
+      "params": {
+        "step": 0.3
+      },
+      "ratios": {
+        "ideal": 8.450920773120545,
+        "simple_ans": {
+          "ratio": 8.270614506657845,
+          "encode_MBps": 372.55972540336137,
+          "decode_MBps": 708.1313643709632
+        },
+        "zstd-22": {
+          "ratio": 6.317119393556538,
+          "encode_MBps": 2.420715412690088,
+          "decode_MBps": 1458.6937394891925
+        },
+        "zlib-9": {
+          "ratio": 5.62706618836604,
+          "encode_MBps": 1.0004362578190686,
+          "decode_MBps": 560.5493695096468
+        },
+        "blosc": {
+          "ratio": 5.800716388473977,
+          "encode_MBps": 2102.2192548779994,
+          "decode_MBps": 4732.630749206581
+        }
+      }
+    },
+    {
+      "name": "gaussian_step0.1",
+      "distribution": "gaussian",
+      "params": {
+        "step": 0.1
+      },
+      "ratios": {
+        "ideal": 5.959109742989011,
+        "simple_ans": {
+          "ratio": 5.822416302765648,
+          "encode_MBps": 468.29654588895045,
+          "decode_MBps": 722.6191157795695
+        },
+        "zstd-22": {
+          "ratio": 4.515539098924172,
+          "encode_MBps": 3.012525422775215,
+          "decode_MBps": 1156.738734393592
+        },
+        "zlib-9": {
+          "ratio": 4.067438124097537,
+          "encode_MBps": 1.0260603873745497,
+          "decode_MBps": 508.1606343190387
+        },
+        "blosc": {
+          "ratio": 4.978592054167081,
+          "encode_MBps": 2511.29787747598,
+          "decode_MBps": 4783.708025633202
+        }
+      }
+    },
+    {
+      "name": "gaussian_step0.05",
+      "distribution": "gaussian",
+      "params": {
+        "step": 0.05
+      },
+      "ratios": {
+        "ideal": 5.023956189656684,
+        "simple_ans": {
+          "ratio": 4.89452302873085,
+          "encode_MBps": 410.02544143703795,
+          "decode_MBps": 721.3511075007973
+        },
+        "zstd-22": {
+          "ratio": 3.7734069147681715,
+          "encode_MBps": 3.365814396092493,
+          "decode_MBps": 968.4160907292913
+        },
+        "zlib-9": {
+          "ratio": 3.4558728238800813,
+          "encode_MBps": 0.9796125042186382,
+          "decode_MBps": 437.9094465781333
+        },
+        "blosc": {
+          "ratio": 4.248990864669641,
+          "encode_MBps": 2558.3742906069842,
+          "decode_MBps": 4710.648696967964
+        }
+      }
+    },
+    {
+      "name": "poisson_lambda0.5",
+      "distribution": "poisson",
+      "params": {
+        "lambda": 0.5
+      },
+      "ratios": {
+        "ideal": 24.036852352512962,
+        "simple_ans": {
+          "ratio": 23.54603249352484,
+          "encode_MBps": 528.5999341289184,
+          "decode_MBps": 727.4982695592852
+        },
+        "zstd-22": {
+          "ratio": 16.711928138709002,
+          "encode_MBps": 1.6458803978237024,
+          "decode_MBps": 2691.042313299262
+        },
+        "zlib-9": {
+          "ratio": 14.423770373575653,
+          "encode_MBps": 1.84448823723747,
+          "decode_MBps": 938.2485045104587
+        },
+        "blosc": {
+          "ratio": 21.21340687314383,
+          "encode_MBps": 1947.740258204677,
+          "decode_MBps": 2853.918650332388
+        }
+      }
+    },
+    {
+      "name": "poisson_lambda1",
+      "distribution": "poisson",
+      "params": {
+        "lambda": 1
+      },
+      "ratios": {
+        "ideal": 16.99866721979882,
+        "simple_ans": {
+          "ratio": 16.619577862722288,
+          "encode_MBps": 445.7654935023219,
+          "decode_MBps": 724.1174658284168
+        },
+        "zstd-22": {
+          "ratio": 12.551776076314798,
+          "encode_MBps": 1.6808092465859785,
+          "decode_MBps": 2513.404662239073
+        },
+        "zlib-9": {
+          "ratio": 10.649910806996992,
+          "encode_MBps": 1.016282973345101,
+          "decode_MBps": 750.9098214611648
+        },
+        "blosc": {
+          "ratio": 15.094909241858183,
+          "encode_MBps": 1897.5359487101691,
+          "decode_MBps": 1290.775380731013
+        }
+      }
+    },
+    {
+      "name": "poisson_lambda2",
+      "distribution": "poisson",
+      "params": {
+        "lambda": 2
+      },
+      "ratios": {
+        "ideal": 13.044247257868504,
+        "simple_ans": {
+          "ratio": 12.764871074802144,
+          "encode_MBps": 413.9328132313438,
+          "decode_MBps": 723.8091380818561
+        },
+        "zstd-22": {
+          "ratio": 10.137618166611755,
+          "encode_MBps": 1.9261054126458665,
+          "decode_MBps": 2191.585819953295
+        },
+        "zlib-9": {
+          "ratio": 8.481944061578913,
+          "encode_MBps": 0.913678257819835,
+          "decode_MBps": 662.1221472438431
+        },
+        "blosc": {
+          "ratio": 11.32214328172323,
+          "encode_MBps": 2111.1245390697427,
+          "decode_MBps": 2984.58901911243
+        }
+      }
+    },
+    {
+      "name": "poisson_lambda5",
+      "distribution": "poisson",
+      "params": {
+        "lambda": 5
+      },
+      "ratios": {
+        "ideal": 10.071800601190981,
+        "simple_ans": {
+          "ratio": 9.875567845151096,
+          "encode_MBps": 315.27793506521306,
+          "decode_MBps": 719.7204150050048
+        },
+        "zstd-22": {
+          "ratio": 7.920321565055541,
+          "encode_MBps": 2.2995292584158165,
+          "decode_MBps": 1571.7504268206924
+        },
+        "zlib-9": {
+          "ratio": 6.7056713215201755,
+          "encode_MBps": 1.0308435579712236,
+          "decode_MBps": 606.0064747527512
+        },
+        "blosc": {
+          "ratio": 8.322063871840216,
+          "encode_MBps": 2015.71837735912,
+          "decode_MBps": 2780.1892563526317
+        }
+      }
+    },
+    {
+      "name": "poisson_lambda10",
+      "distribution": "poisson",
+      "params": {
+        "lambda": 10
+      },
+      "ratios": {
+        "ideal": 8.64986181473149,
+        "simple_ans": {
+          "ratio": 8.484642796538266,
+          "encode_MBps": 495.7101279003548,
+          "decode_MBps": 711.6551137857543
+        },
+        "zstd-22": {
+          "ratio": 6.8088583246804095,
+          "encode_MBps": 2.525253489168432,
+          "decode_MBps": 1494.3058836241999
+        },
+        "zlib-9": {
+          "ratio": 5.821738371077604,
+          "encode_MBps": 1.0706316817896682,
+          "decode_MBps": 574.6578587569278
+        },
+        "blosc": {
+          "ratio": 7.049576144234328,
+          "encode_MBps": 1723.1389038223238,
+          "decode_MBps": 2565.0300041321
+        }
+      }
+    }
+  ]
+}
